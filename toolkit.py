@@ -59,20 +59,20 @@ check_even(4)
 check_even(7)
 # 10
 def summarize(items):
-     sum=0
-     max=0 
-     min=10
-     for i in items:
+    sum=items[0]
+    max=items[0]
+    min=items[0]
+    for i in items:
         sum+=i
         if max <i:
              max=i
-        elif min>i:
+        if min>i:
              min=i
     
-     print("sum",sum)
-     print("smallet:",min)
-     print("largest",max)
-summarize([4, 9, 2, 10, 3])
+    print("sum",sum)
+    print("smallet:",min)
+    print("largest",max)
+summarize([4,9,2,10,3])
 # part 2
 # 1 
 def show_all(*args):
