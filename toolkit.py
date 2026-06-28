@@ -59,9 +59,9 @@ check_even(4)
 check_even(7)
 # 10
 def summarize(items):
-     print("sum",sum(items))
-     print("smallet:",min(items))
-     print("largest",max(items))
+    for _ in items:
+        sum+=items[_]
+        
 summarize([4, 9, 2, 10, 3])
 # part 2
 # 1 
