@@ -64,16 +64,20 @@ def summarize(items):
      print("largest",max(items))
 summarize([4, 9, 2, 10, 3])
 # part 2
-# 1
-
+# 1 
+def show_all(*args):
+     print(args)
+show_all("radio", "map", "flashlight")
 # 2
-
+def show_profile(**kwargs):
+     print(kwargs)
+show_profile(name="Agent X", level=7, active=True)  
 # 3
 def power(base, exponent=2):
     print(base**exponent)
 power(3)
 power(3,3)
-power(exponent=4,base=2)
+power(exponent=4,base=2)    
 # 4
 def repeat(text, times):
      print(text*times)
