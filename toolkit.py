@@ -49,4 +49,21 @@ def show_fahrenheit(c):
 show_fahrenheit(0)
 show_fahrenheit(100)
 show_fahrenheit(37.5)
+# 9
+def check_even(n):
+    if n%2==0:
+         print(n,"is even")
+    else:
+         print(n,"is odd")
+check_even(4)
+check_even(7)
+# 10
+def summarize(items):
+     print("sum",sum(items))
+     print("smallet:",min(items))
+     print("largest",max(items))
+summarize([4, 9, 2, 10, 3])
 
+
+
+     
