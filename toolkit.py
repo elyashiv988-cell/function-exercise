@@ -17,3 +17,9 @@ def greet_with_title(name, title="Agent"):
     print("hello",title,name)
 greet_with_title(name="eli")
 greet_with_title("eli","student")
+# 5
+def describe(name, level, active):
+    print("name: ",name)
+    print("level: ",level)
+    print("active",active)
+describe("eli",10,True)
