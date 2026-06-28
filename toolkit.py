@@ -19,7 +19,34 @@ greet_with_title(name="eli")
 greet_with_title("eli","student")
 # 5
 def describe(name, level, active):
-    print("name: ",name)
-    print("level: ",level)
-    print("active",active)
-describe("eli",10,True)
+    print("name:",name)
+    print("level:",level)
+    print("active:",active)
+describe(level=9,active=True,name="eli")
+# 6
+def multiply(a, b=2):
+    print(a*b)
+multiply(7)
+multiply(4,5)
+# 7 
+def print_largest(a, b, c):
+    if a>=b:
+        if a>=c:
+            print(a)
+        else:
+            print(c)
+    elif b>=c:
+            print(b)
+    else:
+            print(c)
+    
+print_largest(3,8,5)
+print_largest(10,2,7)
+print_largest(4,4,1)
+# 8
+def show_fahrenheit(c):
+    print((c * 9 / 5) + 32)
+show_fahrenheit(0)
+show_fahrenheit(100)
+show_fahrenheit(37.5)
+
