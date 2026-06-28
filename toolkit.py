@@ -74,4 +74,15 @@ def power(base, exponent=2):
 power(3)
 power(3,3)
 power(exponent=4,base=2)
-     
+# 4
+def repeat(text, times):
+     print(text*times)
+repeat("ha",3)
+# 5
+def flatten_and_print(matrix):
+    for row in matrix:
+         for cell in row:
+              print(cell)
+                  
+x=[[1,2],[3,4],[5,6]]
+flatten_and_print(x)
